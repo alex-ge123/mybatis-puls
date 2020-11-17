@@ -7,8 +7,8 @@ spring:
   datasource:
     druid:
       username: root
-      password: 123
-      url: jdbc:mysql://120.79.197.130:3307/app?useSSL=true&verifyServerCertificate=false&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+      password: root
+      url: jdbc:mysql://127.0.0.1:3306/db2?useSSL=true&verifyServerCertificate=false&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
       driver-class-name: com.mysql.jdbc.Driver
       initial-size: 5
       min-idle: 5
